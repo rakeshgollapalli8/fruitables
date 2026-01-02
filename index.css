@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body h1{
+ color: rgb(129, 196, 8);
+}
+
+/* header style starts here */
+.header{
+    display: flex;
+    padding:0px 20px;
+    margin: 0px 60px;
+    height: 40px;
+    align-items: center;
+    background-color: rgb(129, 196, 8);
+    border-radius: 40px 10px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+}
+.header a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white  ;
+}
+.header   i{
+    color: rgb(250, 183, 28);
+
+}
+.header .last{
+    margin-left: auto;
+}
+/* navbar style starts here  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding:40px 60px;
+}
+nav .name h1{
+    color: rgb(129, 196, 8);
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+
+}
+nav .icon{
+    padding: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+nav .icon i{
+    padding: 0px 20px;
+}
+nav .icon .icon1{
+    width: 40px;
+    height: 40px;
+    border: 1px solid orangered;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    margin: 0px 20px;
+}
+ nav .icon .icon1 i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+ nav .icon .icon2 i {
+    font-size: 30px;
+    color: #81c408;
+    padding-right: 40px;
+    position: relative;
+    padding-top: 5px;
+}
+nav .icon h1 {
+    position: absolute;
+    right: 14%;
+    top: 12%;
+    height: 25px;
+    width: 25px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: #ffb524;
+    color: #81c408;
+    padding-left: 5px;
+}
+nav .icon .icon3 i {
+    font-size: 30px;
+    color: #81c408;
+    padding-right: 16px;
+    padding-top: 5px;
+
+}
+ nav a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: #ababab;
+}
+nav>h1 {
+    font-size: 30px;
+    color: #81c408;
+}
+/* banner image style starts here */
+#banner{
+    /* background: url(../task1/images/work1.jpg) no-repeat ;
+    background-size: cover; */
+    background-color: peachpuff;
+    width: 100%;
+    height: 400px;
+    padding: 80px;
+}
+#banner .banner-content h1{
+    font-size: 50px;
+    margin-top: 5px;
+
+}
+#banner .banner-content .row{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 70px;
+}   
+#banner .banner-content .row .col .input input {
+    width: 400px;
+    height: 50px;
+    border-radius: 30px;
+    border: solid #ffad0b;;
+}
+#banner .banner-content .row .col .input {
+    position: relative;
+    margin-top: 40px;
+}
+#banner .banner-content .row .col .input button {
+    background-color: #81c408;
+    border-radius: 30px;
+    position: absolute;
+    right: 22%;
+    top: 0%;
+    bottom: 0%;
+    width: 100px;
+    border: 1px solid #ffad0b;
+    color: white;
+}
+/* Help section style starts here */
+#help .row {
+    display: flex;
+    padding: 30px 70px 30px 90px;
+}
+#help .row .col {
+    width: 25%;
+    background-color: #f4f6f8;
+    margin: 0px 20px;
+    padding: 30px;
+}
+#help .row .col .icon {
+    width: 90px;
+    height: 90px;
+    background-color: #ffb524;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+#help .row .col .icon i {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#help .row .col h3 {
+    color: #515750;
+    padding: 10px 0px;
+    text-align: center;
+}
+#help .row .col p {
+    color: #938fa9;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* product content style starts here */
+#products .organic {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+    align-items: center;
+}
+#products .organic a {
+    text-decoration: none;
+    border: 1px solid ;
+    padding: 7px 15px;
+    border-radius: 30px;
+    background-color: #f4f6f8;
+    color: #42595b;
+    margin: 0px 20px;
+}
+#products .organic h1 {
+    font-size: 40px;
+    color: #42595b;
+}
+#products>h1 {
+    padding: 0px 120px;
+    font-size: 40px;
+    color: #42595b;
+}
+#products .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 40px 30px;
+}
+#products .row .col {
+    width: 25%;
+}
+#products .row .col .card {
+    border: 1px solid #ffc34d;
+    margin: 10px 30px;
+    position: relative;
+}
+#products .row .col .fruits {
+    width: 80px;
+    height: 35px;
+    background-color: #ffad0b;
+    border-radius: 15px;
+    position: relative;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+#products .row .col .fruits h4 {
+    font-size: 15px;
+    position: absolute;
+    top: 20%;
+    left: 19%;
+    transform: translate(-50% -50%);
+}
+#products .row .col img {
+    width: 100%;
+    height: 200px;
+}
+#products .row .col h2 {
+    color: #42595b;
+    text-align: center;
+    font-weight: 550;
+    padding: 20px;
+}
+#products .row .col p {
+    text-align: center;
+    color: #767d88;
+    padding: 0px 10px;
+}
+#products .row .col h3 {
+    color: #42595b;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+#products .row .col button {
+    margin-left: 15px;
+    padding: 7px 15px;
+    border-radius: 30px;
+    border-color: #ffc34d;
+    color: #81c408;
+    border-style: solid;
+    margin-bottom: 30px;
+}
+/* discount style starts here */
+#discount .row {
+    display: flex;
+    padding: 20px 120px;
+}
+#discount .row .col {
+    width: 33.33%;
+    position: relative;
+}
+#discount .row .col .card {
+    border: 1px solid yellow;
+    margin: 20px;
+
+}
+#discount .row .col .card-body {
+    padding: 20px;
+
+}
+#discount .row .col .card-body img {
+    width: 100%;
+    height: 210px;
+}
+#discount .row .col .offer {
+    background-color: #81c408;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 53%;
+    left: 24%;
+    border-radius: 20px;
+}
+#discount .row .col .offer h2 {
+    text-align: center;
+    padding-top: 10px;
+    color: #44585c;
+    font-weight: 400;
+}
+#discount .row .col .offer h3 {
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font-weight: 400;
+
+}
+#discount .row .col .card-body1 {
+    padding: 20px;
+
+}
+#discount .row .col .card-body1 img {
+    width: 100%;
+    height: 210px;
+}
+#discount .row .col .card .card-footer {
+    height: 130px;
+    width: 100%;
+}
+#discount .row .col .offer1 {
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 53%;
+    left: 24%;
+    border-radius: 20px;
+}
+#discount .row .col .offer1 h2 {
+    text-align: center;
+    padding-top: 10px;
+    color: #44585c;
+    font-weight: 400;
+}
+#discount .row .col .offer1 h3 {
+    text-align: center;
+    padding-top: 15px;
+    color: #81c408;
+    font-weight: 400;
+
+}
+#discount .row .col .card-body2 {
+    padding: 20px;
+
+}
+#discount .row .col .card-body2 img {
+    width: 100%;
+    height: 210px;
+}
+#discount .row .col .offer2 {
+    background-color: #ffb524;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 53%;
+    left: 24%;
+    border-radius: 20px;
+}
+#discount .row .col .offer2 h2 {
+    text-align: center;
+    padding-top: 10px;
+    color: #44585c;
+    font-weight: 400;
+}
+#discount .row .col .offer2 h3 {
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font-weight: 400;
+
+}
